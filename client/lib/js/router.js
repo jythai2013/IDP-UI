@@ -76,10 +76,45 @@ Router.map(function() {
         template: 'facilityManagement',
         layoutTemplate: "layoutAdmin"
     });
+    this.route('facilityResult', {
+        path:'/facilityResult',
+        template: 'facilityResult',
+        layoutTemplate: "layoutAdmin"
+    });
     
     this.route('equipmentyManagement', {
         path:'/equipmentyManagement',
         template: 'equipmentyManagement',
+        layoutTemplate: "layoutAdmin"
+    });
+    
+    this.route('equipmentResult', {
+        path:'/equipmentResult',
+        template: 'equipmentResult',
+        layoutTemplate: "layoutAdmin"
+    });
+    
+    this.route('equipmentCourse', {
+        path:'/equipmentCourse',
+        template: 'equipmentCourse',
+        layoutTemplate: "layoutAdmin"
+    });
+    
+    this.route('facilityCourse', {
+        path:'/facilityCourse',
+        template: 'facilityCourse',
+        layoutTemplate: "layoutAdmin"
+    });
+    
+    this.route('facilityConfirmation', {
+        path:'/facilityConfirmation',
+        template: 'facilityConfirmation',
+        layoutTemplate: "layoutAdmin"
+    });
+    
+    this.route('equipmentConfirmation', {
+        path:'/equipmentConfirmation',
+        template: 'equipmentConfirmation',
         layoutTemplate: "layoutAdmin"
     });
     

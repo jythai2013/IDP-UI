@@ -1,22 +1,22 @@
-<template name="equipmentResult">
+<template name="facilityResult">
   <div class="panel" style="background-color:#f8f8f8">
-    <h3 class="row" style="padding-top:30px" align="center" >Equipment Management</h3>
+    <h3 class="row" style="padding-top:30px" align="center" >Facility Management</h3>
   </div>
 
   <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#equiBook">Equipment Booking</a></li>
-    <li><a data-toggle="tab" href="#reporting">Equipment Reporting</a></li>
+    <li class="active"><a data-toggle="tab" href="#faciBook">Facility Booking</a></li>
+    <li><a data-toggle="tab" href="#reporting">Facility Reporting</a></li>
   </ul>
 
 
   <div class="tab-content">
-    <div id="equiBook" class="tab-pane fade in active">
+    <div id="faciBook" class="tab-pane fade in active">
       <div class="row">
         <div class="col-xs-12 col-sm-12">
           <!--<div class="box">
             <div class="row">
               <div class="box-content">-->
-                <h3 class="page-header">Equipment Booking System</h3>
+                <h3 class="page-header">Facility Booking System</h3>
                 <!-- Insert image here-->
 
                 <div class="row">
@@ -36,7 +36,7 @@
                                     <th>Start Time</th>
                                     <th>End Time</th>
                                     <th>Date</th>
-                                    <th>Equipment</th>
+                                    <th>Facility</th>
                                     <th>Number of Booking</th>
                                     <th>Action</th>
                                   </tr>
@@ -46,25 +46,25 @@
                                     <td>01:00pm</td>
                                     <td>03:00pm</td>
                                     <td>16 Oct 2015</td>
-                                    <td>SC 02</td>
+                                    <td>CR 1.1</td>
                                     <td>1</td>
-                                    <td><a href="equipmentCourse" class="btn btn-warning btn-lg active" role="button">Book Now</a></td>
+                                    <td><a href="facilityCourse" class="btn btn-warning btn-lg active" role="button">Book Now</a></td>
                                   </tr>
                                   <tr>
                                     <td>01:00pm</td>
                                     <td>03:00pm</td>
                                     <td>16 Oct 2015</td>
-                                    <td>SC 03</td>
+                                    <td>CR 2.1</td>
                                     <td>2</td>
-                                    <td><a href="equipmentCourse" class="btn btn-warning btn-lg active" role="button">Book Now</a></td>
+                                    <td><a href="facilityCourse" class="btn btn-warning btn-lg active" role="button">Book Now</a></td>
                                   </tr>
                                   <tr>
                                     <td>01:00pm</td>
                                     <td>03:00pm</td>
                                     <td>16 Oct 2015</td>
-                                    <td>SC 04</td>
+                                    <td>CR 2.2</td>
                                     <td>2</td>
-                                    <td><a href="equipmentCourse" class="btn btn-warning btn-lg active" role="button">Book Now</a></td>
+                                    <td><a href="facilityCourse" class="btn btn-warning btn-lg active" role="button">Book Now</a></td>
                                   </tr> 
                                 </tbody>
                               </table>
@@ -75,56 +75,12 @@
                     </div>
                   </div>
                 </div>
-
-
-                <div class="container">
-  <!-- Trigger the modal with a button -->
-
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header" style="padding:35px 50px;">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-        </div>
-        <div class="modal-body" style="padding:40px 50px;">
-          <form role="form">
-            <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Course</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Course">
-            </div>
-            <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
-              <input type="text" class="form-control" id="psw" placeholder="Class">
-            </div>
-              <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Submit</button>
-          </form>
-        </div>
-        
-      </div>
-      
-    </div>
-  </div> 
-</div>
- 
-<script>
-$(document).ready(function(){
-    $("#myBtn").click(function(){
-        $("#myModal").modal();
-    });
-});
-</script>
-
-
-
-
          <!-- </div></div>
        </div>-->
-
      </div>
    </div>
+
+
 
    <div id="reporting" class="tab-pane fade">
 
