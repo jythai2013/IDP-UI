@@ -6,7 +6,7 @@
 
 // }
 
-Template.haha.helpers({
+Template.adminDashboard.helpers({
 	options: function() {
 			return {
 				header: {
@@ -115,18 +115,8 @@ Template.haha.helpers({
 	}
 });
 
-Template.haha.events({
+Template.adminDashboard.events({
 	"click .fc-widget-content": function() {
 		Modal.show('exampleModal')
 	}
 });
-
-
-
-
-Meteor.startup(function(){
-    // Show the example modal 3 seconds after startup.
-    // setTimeout(function(){
-        
-    // }, 1500)
-})
