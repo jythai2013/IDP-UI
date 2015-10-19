@@ -4,8 +4,8 @@
   </div>
 
   <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#equiBook">Facility Booking</a></li>
-    <li><a data-toggle="tab" href="#reporting">Facility Reporting</a></li>
+    <li class="active"><a data-toggle="tab" href="#faciBook" style="color:#095464">Facility Booking</a></li>
+    <li><a data-toggle="tab" href="#reporting" style="color:#095464">Facility Reporting</a></li>
   </ul>
 
 
@@ -27,12 +27,28 @@
 
           
             <div class="form-group">
-              <label for="usrname"><span class=""></span> Course</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Course">
-            </div>
-            <div class="form-group">
-              <label for="psw"><span class=""></span> Class</label>
-              <input type="text" class="form-control" id="psw" placeholder="Class">
+            <table>
+            <tr>
+              <td><label for="usrname"><span class=""></span> Course     </label></td>
+              <td>
+              <select class="js-example-basic-single">
+                <option value="AL">-- Select a Course --</option>
+                <option value="AL">Managing Operations in Training Organisations (MOTO)  </option>
+                <option value="AL">Strategic Business Planning for Training Organizations (SBPTO) </option>
+                <option value="WY">Workplace Health and Safety (WHS) </option>
+                <option value="AL">Workplace Literacy and Numeracy (WPLN) </option>
+                <option value="AL">Workplace Trainer Programme (WTP) </option>
+              </select></td>
+              </tr>
+              <tr>
+                <td><label for="psw"><span class=""></span> Class</label></td>
+                <td>  <select class="js-example-basic-single">
+                <option value="AL">-- Select a Class --</option>
+                <option value="AL">G1</option>
+                <option value="WY">G2</option>
+              </select></td>
+              </tr>
+              </table>
             </div>
               <a href="facilityConfirmation" role="button" class="btn btn-success btn-block">Submit</a>
           
