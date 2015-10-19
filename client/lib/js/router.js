@@ -26,6 +26,12 @@ Router.map(function() {
 	    }
     });*/
 
+    this.route('calendarView', {
+        path:'/calendarView',
+        template: 'calendarView',
+        layoutTemplate: "layoutAdmin"
+    });
+
     this.route('admin', {
         path:'/',
         template: 'adminDashboard',
