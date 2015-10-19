@@ -1,0 +1,169 @@
+<template name="reportequipmentfault">
+
+  <div class="panel" style="background-color:#f8f8f8">
+    <h3 class="row" style="padding-top:30px" align="center" >Equipment Management</h3>
+  </div>
+
+  <ul class="nav nav-tabs">
+    <li ><a data-toggle="tab" href="#equiBook">Equipment Booking</a></li>
+    <li class="active"><a data-toggle="tab" href="#reporting">Equipment Reporting</a></li>
+  </ul>
+
+
+  <div class="tab-content">
+    <div id="equiBook" class="tab-pane fade in active">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12">
+          <!--<div class="box">
+            <div class="row">
+              <div class="box-content">-->
+                <h3 class="page-header">Equipment Booking System</h3>
+                <!-- Insert image here-->
+
+
+
+
+                <div class="row">
+      <div class="col-xs-12 col-sm-6">
+
+          
+            <div class="form-group">
+              <label for="usrname"><span class=""></span> Equipment: Steel Cutter SC02</label>
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class=""></span> Reason for reporting</label>
+              <input type="text" class="form-control" id="usr">
+            </div>
+              <a href="/" role="button" class="btn btn-success btn-block">Submit</a>
+          
+        </div>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div> 
+
+ 
+<script>
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+</script>
+
+
+
+
+         <!-- </div></div> </div>
+       </div>-->
+  
+
+   <div id="reporting" class="tab-pane fade">
+
+    <div class="row">
+      <div id="home" class="col-xs-12 col-sm-6">
+        <div class="box">
+          {{> facilityTable}}
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</template>
+
+
+
+
+
+<template name = "facilityTable">
+  <div class="row">
+    <div class="col-xs-12">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Facility</th>
+            <th>Report Fault</th>
+            <th>Comments</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <div class="radio">
+                <label>Classroom 1.1 (CR1.1)</label>
+              </div>
+            </td>
+            <td>
+              <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">Report Fault</button>
+            </td>
+            <td>NA</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="radio">
+                <label>Classroom 1.2 (CR1.2)</label>
+              </div>
+            </td>
+            <td>
+              <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">Report Fault</button>
+            </td>
+            <td>NA</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="radio">
+                <label>Classroom 2.1 (CR2.1)</label>
+              </div>
+            </td>
+            <td>
+              <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">Report Fault</button>
+            </td>
+            <td>NA</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="radio">
+                <label>Classroom 2.2 (CR2.2)</label>
+              </div>
+            </td>
+            <td>
+              <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">Report Fault</button>
+            </td>
+            <td>NA</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="radio">
+                <label>Classroom 2.3 (CR2.3)</label>
+              </div>
+            </td>
+            <td>
+              <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#myModal">Report Fault</button>
+            </td>
+            <td>NA</td>
+          </tr>
+          <tr>
+            <td>
+              <div class="radio">
+                <label>Classroom 3.1 (CR3.1)</label>
+              </div>
+            </td>
+            <td>
+              <p class="text-danger">Faulty</p>
+            </td>
+            <td>Lights are unable to be turned on.</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+
+    </div>
+  </div>
+</template>
+
+
