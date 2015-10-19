@@ -9,23 +9,107 @@
 Template.haha.helpers({
 	options: function() {
 			return {
+				header: {
+				left: 'prev,next today',
+				center: 'title',
+				right: 'month,agendaWeek,agendaDay'
+			},
 					defaultView: 'agendaWeek',
 					events: [
 						{
-								title  : 'event1',
-								start  : '2015-10-19'
+								title  : 'Workdplace Literacy and Numeracy Fundamentals',
+								start  : '2015-10-19T09:00:00',
+								end		 : '2015-10-19T12:00:00',
+								allDay : false
 						},
 						{
-								title  : 'event2',
-								start  : '2015-10-18T10:00:00',
+								title  : 'Workplace Health and Safety',
+								start  : '2015-10-19T14:00:00',
+								end		 : '2015-10-19T17:00:00',
+								allDay : false 
+						},
+						{
+								title  : 'Workplace Trainer Programme ',
+								start  : '2015-10-20T09:00:00',
+								end		 : '2015-10-20T12:00:00',
+								allDay : false 
+						},						
+						{
+								title  : 'Managing Operations in Training Organisations',
+								start  : '2015-10-20T09:00:00',
 								end		 : '2015-10-20T12:00:00',
 								allDay : false 
 						},
 						{
-								title  : 'event3',
-								start  : '2015-10-25T12:30:00',
-								allDay : false // will make the time show
-						}
+								title  : 'Strategic Business Planning for Training Organizations ',
+								start  : '2015-10-20T14:00:00',
+								end		 : '2015-10-20T17:00:00',
+								allDay : false 
+						},
+						{
+								title  : 'Develop an On-the-Job Training Programme ',
+								start  : '2015-10-21T09:00:00',
+								end		 : '2015-10-21T12:00:00',
+								allDay : false 
+						},						
+						{
+								title  : 'Strategic Business Planning for Training Organizations ',
+								start  : '2015-10-21T14:00:00',
+								end		 : '2015-10-21T17:00:00',
+								allDay : false 
+						},
+						{
+								title  : 'Workplace Health and Safety',
+								start  : '2015-10-21T14:00:00',
+								end		 : '2015-10-21T17:00:00',
+								allDay : false 
+						},
+						{
+								title  : 'Workplace Trainer Programme',
+								start  : '2015-10-22T09:00:00',
+								end		 : '2015-10-22T12:00:00',
+								allDay : false 
+						},
+						{
+								title  : 'Managing Operations in Training Organisations ',
+								start  : '2015-10-22T09:00:00',
+								end		 : '2015-10-22T12:00:00',
+								allDay : false 
+						},
+						{
+								title  : 'Develop and Review Competency-based Assessment ',
+								start  : '2015-10-22T14:00:00',
+								end		 : '2015-10-22T17:00:00',
+								allDay : false 
+						},
+						{
+								title  : 'WSQ Specialist Diploma in Advanced Facilitation ',
+								start  : '2015-10-23T09:00:00',
+								end		 : '2015-10-23T12:00:00',
+								allDay : false 
+						},
+
+						{
+								title  : 'WSQ Specialist Diploma in Advanced Facilitation ',
+								start  : '2015-10-23T14:00:00',
+								end		 : '2015-10-23T17:00:00',
+								allDay : false 
+						},
+
+						{
+								title  : 'Conduct a Training Needs Analysis ',
+								start  : '2015-10-23T14:00:00',
+								end		 : '2015-10-23T17:00:00',
+								allDay : false 
+						},
+
+						{
+								title  : 'Branding for Professional Success in a Digital Age',
+								start  : '2015-10-24T09:00:00',
+								end		 : '2015-10-24T12:00:00',
+								allDay : false 
+						},
+
 					]
 			};
 	}
