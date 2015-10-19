@@ -117,6 +117,12 @@ Router.map(function() {
         template: 'equipmentConfirmation',
         layoutTemplate: "layoutAdmin"
     });
+
+        this.route('calendarView', {
+        path:'/calendarView',
+        template: 'calendarView',
+        layoutTemplate: "layoutAdmin"
+    });
     
     this.route('reportequipmentfault', {
         path:'/reportequipmentfault',
