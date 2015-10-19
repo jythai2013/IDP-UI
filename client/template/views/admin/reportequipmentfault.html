@@ -1,21 +1,12 @@
-<template name="equipmentCourse">
-<script>
-  $(document).ready(function() {
-    $(".js-example-basic-single").select2();
-  });
-
-</script>
-
-
-
+<template name="reportequipmentfault">
 
   <div class="panel" style="background-color:#f8f8f8">
     <h3 class="row" style="padding-top:30px" align="center" >Equipment Management</h3>
   </div>
 
   <ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#equiBook">Equipment Booking</a></li>
-    <li><a data-toggle="tab" href="#reporting">Equipment Reporting</a></li>
+    <li ><a data-toggle="tab" href="#equiBook">Equipment Booking</a></li>
+    <li class="active"><a data-toggle="tab" href="#reporting">Equipment Reporting</a></li>
   </ul>
 
 
@@ -37,25 +28,13 @@
 
           
             <div class="form-group">
-              <label for="usrname"><span class=""></span> Course</label>
-              <select class="js-example-basic-single">
-                <option value="AL">-- Select a Course --</option>
-                <option value="AL">Managing Operations in Training Organisations (MOTO)  </option>
-                <option value="AL">Strategic Business Planning for Training Organizations (SBPTO) </option>
-                <option value="WY">Workplace Health and Safety (WHS) </option>
-                <option value="AL">Workplace Literacy and Numeracy (WPLN) </option>
-                <option value="AL">Workplace Trainer Programme (WTP) </option>
-              </select>
+              <label for="usrname"><span class=""></span> Equipment: Steel Cutter SC02</label>
             </div>
             <div class="form-group">
-              <label for="psw"><span class=""></span> Class</label>
-              <select class="js-example-basic-single">
-                <option value="AL">-- Select a Class --</option>
-                <option value="AL">G1</option>
-                <option value="WY">G2</option>
-              </select>
+              <label for="psw"><span class=""></span> Reason for reporting</label>
+              <input type="text" class="form-control" id="usr">
             </div>
-              <a href="equipmentConfirmation" role="button" class="btn btn-success btn-block">Submit</a>
+              <a href="/" role="button" class="btn btn-success btn-block">Submit</a>
           
         </div>
         </div>
