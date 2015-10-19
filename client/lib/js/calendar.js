@@ -17,16 +17,22 @@ Template.adminDashboard.helpers({
 					defaultView: 'agendaWeek',
 					events: [
 						{
-								title  : 'Workdplace Literacy and Numeracy Fundamentals',
+								title  : 'Workplace Literacy and Numeracy Fundamentals',
 								start  : '2015-10-19T09:00:00',
 								end		 : '2015-10-19T12:00:00',
 								allDay : false
 						},
 						{
 								title  : 'Workplace Health and Safety',
-								start  : '2015-10-19T14:00:00',
+								start  : '2015-10-19T13:00:00',
 								end		 : '2015-10-19T17:00:00',
 								allDay : false 
+						},
+						{
+								title  : 'Strategic Business Planning for Training Organizations (SBPTO)',
+								start  : '2015-10-19T13:00:00',
+								end		 : '2015-10-19T17:00:00',
+								allDay : false
 						},
 						{
 								title  : 'Workplace Trainer Programme ',
@@ -42,7 +48,7 @@ Template.adminDashboard.helpers({
 						},
 						{
 								title  : 'Strategic Business Planning for Training Organizations ',
-								start  : '2015-10-20T14:00:00',
+								start  : '2015-10-20T13:00:00',
 								end		 : '2015-10-20T17:00:00',
 								allDay : false 
 						},
@@ -54,13 +60,13 @@ Template.adminDashboard.helpers({
 						},						
 						{
 								title  : 'Strategic Business Planning for Training Organizations ',
-								start  : '2015-10-21T14:00:00',
+								start  : '2015-10-21T13:00:00',
 								end		 : '2015-10-21T17:00:00',
 								allDay : false 
 						},
 						{
 								title  : 'Workplace Health and Safety',
-								start  : '2015-10-21T14:00:00',
+								start  : '2015-10-21T13:00:00',
 								end		 : '2015-10-21T17:00:00',
 								allDay : false 
 						},
@@ -78,7 +84,7 @@ Template.adminDashboard.helpers({
 						},
 						{
 								title  : 'Develop and Review Competency-based Assessment ',
-								start  : '2015-10-22T14:00:00',
+								start  : '2015-10-22T13:00:00',
 								end		 : '2015-10-22T17:00:00',
 								allDay : false 
 						},
@@ -91,14 +97,14 @@ Template.adminDashboard.helpers({
 
 						{
 								title  : 'WSQ Specialist Diploma in Advanced Facilitation ',
-								start  : '2015-10-23T14:00:00',
+								start  : '2015-10-23T13:00:00',
 								end		 : '2015-10-23T17:00:00',
 								allDay : false 
 						},
 
 						{
 								title  : 'Conduct a Training Needs Analysis ',
-								start  : '2015-10-23T14:00:00',
+								start  : '2015-10-23T13:00:00',
 								end		 : '2015-10-23T17:00:00',
 								allDay : false 
 						},
