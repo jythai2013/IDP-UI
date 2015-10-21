@@ -124,4 +124,16 @@ Router.map(function() {
         layoutTemplate: "layoutAdmin"
     });
     
+    this.route('reportfacilityfault', {
+        path:'/reportfacilityfault',
+        template: 'reportfacilityfault',
+        layoutTemplate: "layoutAdmin"
+    });
+    
+    this.route('reportequipmentfault', {
+        path:'/reportequipmentfault',
+        template: 'reportequipmentfault',
+        layoutTemplate: "layoutAdmin"
+    });
+    
 });

@@ -126,3 +126,9 @@ Template.adminDashboard.events({
 		Modal.show('exampleModal')
 	}
 });
+
+Template.homePage.events({
+	"click #sendText": function() {
+		Modal.show('textModal')
+	}
+});
