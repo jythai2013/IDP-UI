@@ -135,5 +135,10 @@ Router.map(function() {
         template: 'reportequipmentfault',
         layoutTemplate: "layoutAdmin"
     });
+        this.route('classList', {
+        path:'/classList',
+        template: 'classList',
+        layoutTemplate: "layoutAdmin"
+    });
     
 });
