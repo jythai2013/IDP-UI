@@ -36,6 +36,10 @@ Router.map(function() {
         path:'/',
         template: 'adminDashboard',
         layoutTemplate: "layoutAdmin"
+        // layoutTemplate: "layoutAdmin",
+				// waitOn: function(){
+					// return IRLibLoader.load("http://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.js"), IRLibLoader.load("http://cdn.jsdelivr.net/qtip2/2.2.1/jquery.qtip.min.css")
+				// }
     });
 
     this.route('profile', {
