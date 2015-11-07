@@ -109,18 +109,18 @@ Template.adminDashboard.helpers({
 					}
 
 				],
-				eventMouseover: function(data, event, view) {
-					var content = '<h3>'+data.title+'</h3>' + 
-						'<p><b>Start:</b> '+data.start+'<br />' + 
-						(data.end && '<p><b>End:</b> '+data.end+'</p>' || '');
+				// eventMouseover: function(data, event, view) {
+				// 	var content = '<h3>'+data.title+'</h3>' + 
+				// 		'<p><b>Start:</b> '+data.start+'<br />' + 
+				// 		(data.end && '<p><b>End:</b> '+data.end+'</p>' || '');
 
-					tooltip.set({
-						'content.text': content
-					})
-					.reposition(event).show(event);
-					console.log(tooltip);
-				},
-				eventMouseout: function() {tooltip.hide()},
+				// 	tooltip.set({
+				// 		'content.text': content
+				// 	})
+				// 	.reposition(event).show(event);
+				// 	console.log(tooltip);
+				// },
+				//eventMouseout: function() {tooltip.hide()},
 				dayClick: function() { tooltip.hide() },
 				eventResizeStart: function() { tooltip.hide() },
 				eventDragStart: function() { tooltip.hide() },
